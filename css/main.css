@@ -1,0 +1,124 @@
+:focus, :active {outline: none}
+a:focus, a:active {outline: none}
+
+body {
+    font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 1.17rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.wrap-avatar{
+    padding: 5px;
+}
+.profile-avatar{
+    max-width:80px;
+    max-height: 80px;
+    border-radius: 40px;
+}
+
+.price{
+    color: #20a820;
+    font-size: 1.5rem;
+}
+.price-suggest{
+    vertical-align: bottom;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.nav-pills .nav-link.active{
+    background-color:#20a820;
+}
+.nav-item a{
+    color:#495057
+}
+.nav-item a:hover{
+    color:#000000
+}
+
+.btn-primary{
+    background-color:#20a820!important;
+    border-color:#25b154!important;
+
+}
+.btn-primary:hover{
+    background-color:#35b154!important;
+    border-color:#25b154!important;
+
+}
+
+.card{
+    border: none;
+}
+.profile-name{
+    color: #1e7e34!important;
+}
+
+.thumb {
+    display: inline-flex;
+    width: 15%;
+    cursor: pointer;
+
+}
+
+.thumb img {
+    width: 100%;
+    padding: 5px;
+
+}
+.thumb:focus{
+    background-color: #0d6efd;
+}
+.form-control{
+    border-color: #f3f3f3;
+    background-color: #f8f8f8;
+}
+.fixed-action-btn{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 998;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: end;
+
+    align-items: flex-end;
+    padding: 15px;
+
+}
+.button-fixed
+{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 23%;
+    vertical-align: middle;
+    overflow: hidden;
+
+    cursor: pointer;
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    color: #0C202C;
+    background-color: #20a820;
+    box-shadow: 2px 2px 3px #1e7e34
+}
+.icon{
+    position: absolute;
+    padding: 4px
+}
